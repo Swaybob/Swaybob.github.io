@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 1400px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.main {
+    width: 85%;
+    /* height: 500px; */
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.all {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    /* border: 1px solid black;
+    border-radius: 30px; */
+    /* height: 50vh; */
+
+
+}
+
+.all>div {
+    flex: 1;
+}
+
+.right,
+.left,
+.middle {
+    padding: 2em;
+    font-family: 'Big Shoulders Display';
+
+}
+
+div>p {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+div>div {
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 60vh;
+}
+
+.right {
+    color: white;
+    background-color: rgb(226, 133, 37);
+    /* height: 100%; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: baseline; */
+
+}
+
+.middle {
+    color: white;
+    background-color: rgb(1, 105, 114);
+    display: flex;
+    flex-direction: column;
+
+    /* height: 100%; */
+}
+
+.left {
+    color: white;
+    background-color: rgb(0, 64, 63);
+    /* height: 100%; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+button {
+    width: max-content;
+    padding: 1em;
+    font-size: 15px;
+    border-radius: 60px;
+    /* margin: 3em 4em 2em 2em; */
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 3em;
+}
+
+.right-but {
+    color: rgb(226, 133, 37);
+    background-color: white;
+
+
+}
+
+.mid-but {
+    color: rgb(1, 105, 114);
+    background-color: white;
+
+
+}
+
+.left-but {
+    background-color: white;
+    color: rgb(0, 64, 63);
+
+
+
+}
+
+.right-but:hover {
+    color: white;
+    background-color: rgb(226, 133, 37);
+}
+
+.mid-but:hover {
+    color: white;
+    background-color: rgb(1, 105, 114);
+}
+
+.left-but:hover {
+    color: white;
+    background-color: rgb(0, 64, 63);
+}
